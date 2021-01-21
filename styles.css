@@ -217,4 +217,19 @@ h1 {
   .price-desc {
     font-size: 1rem;
   }
+  .cta-desc {
+    font-size: 2rem;
+  }
+  .dload-text {
+    font-size: 0.8rem;
+  }
+  .ctabtn {
+    width: 16%;
+    height: 1%;
+    margin-top: 2.5%;
+    margin-right: 2%;
+  }
+  .copyright{
+    font-size: 0.8rem;
+  }
 }
