@@ -1,0 +1,220 @@
+h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #ffffff;
+}
+.navbar-brand {
+  font-family: Ubuntu, sans-serif;
+  font-size: 4.5rem;
+}
+.container-fluid {
+  background-color: #ff4c68;
+  padding: 2% 15% 7% 15%;
+}
+.nav-link {
+  font-size: 1.5rem;
+  margin-right: 4rem;
+  font-family: Montserrat, sans-serif;
+}
+.dbtn {
+  margin: 5% 3% 5% 0;
+}
+.navbar {
+  padding: 0 0 6rem;
+}
+.title-image {
+  width: 22rem;
+  height: 50rem;
+  transform: rotate(25deg);
+  position: absolute;
+  top: 12rem;
+  right: 25rem;
+}
+.f-space {
+  border: 1px solid;
+  border-color: black;
+  position: relative;
+}
+.f-name {
+  font-family: Montserrat, sans-serif;
+  font-weight: 800;
+  font-size: 1.7rem;
+}
+.f-desc {
+  font-family: Montserrat, sans-serif;
+  color: #8f8f8f;
+}
+.f-icon {
+  color: #ef8172;
+  padding: 0 0 10% 0;
+}
+.f-box {
+  text-align: center;
+  padding: 5%;
+}
+.f-icon:hover {
+  color: #ff4c68;
+}
+.t-desc {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.t-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.p-image {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+.t-name {
+  font-size: 1.3rem;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.card {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+.card-desc {
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+}
+.card-desc-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+.card-desc-para {
+  color: #8f8f8f;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+.btn-signup {
+  width: 100%;
+}
+.price {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  font-size: 3rem;
+}
+.dog-name {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.75rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.col {
+  padding: 3% 2%;
+}
+.card-footer {
+  border-top: 0;
+  padding: 0 1.25rem 1.25rem 1.25rem;
+}
+.price-desc {
+  color: #8f8f8f;
+}
+.cta-desc {
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+  font-size: 4.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+.ctabtn {
+  width: 12%;
+  height: 14%;
+  margin-top: 2.5%;
+  margin-right: 2%;
+}
+.dload-text {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.3rem;
+}
+.footer-icon {
+  color: black;
+  padding-right: 0.5%;
+  padding-left: 1%;
+}
+.copyright {
+  font-size: 1.3rem;
+  padding-top: 1%;
+  color: #8f8f8f;
+}
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+#footer {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 4%;
+}
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 10%;
+}
+#pricing {
+  padding: 100px;
+}
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #ffffff;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+@media (max-width: 1000px) {
+  .title-image {
+    position: static;
+    z-index: 0;
+    transform: rotate(0deg);
+    width: auto;
+    height: auto;
+  }
+  #title {
+    text-align: center;
+  }
+  .t-desc {
+    font-size: 1rem;
+  }
+  .t-name {
+    font-size: 0.8rem;
+  }
+  #pricing {
+    text-align: center;
+  }
+  .card-desc-heading {
+    font-size: 2rem;
+  }
+  .card-desc-para {
+    font-size: 1rem;
+  }
+  .dog-name {
+    font-size: 2rem;
+  }
+  .price {
+    font-size: 1.5rem;
+  }
+  .price-desc {
+    font-size: 1rem;
+  }
+}
